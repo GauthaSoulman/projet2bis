@@ -1,0 +1,82 @@
+html{
+    font-family: 'Raleway', sans-serif;
+    margin:40px;
+    padding:20px;
+    
+}
+
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+ul{
+    list-style: none; /* enlever les puces */
+    display: flex; /* affichage en ligne */
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    gap: 50px;
+    text-align: right;
+              
+
+}
+ul a{
+    text-decoration:none
+}
+
+.hebergement{
+    color:#0065FC;
+}
+
+.activite{
+    color:black;
+}
+.logo{
+    width: 61.09px;
+    height: 19px;
+}
+
+h1{
+    font-size:22px;
+}
+
+.recherche{
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+    
+
+}
+
+.iconposition{
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.rechercheinput{
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 16px 25px;
+    box-sizing: border-box;
+    width: 225px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.rechercheinput::placeholder {
+    color: black;
+  }
+
+.boutonrecherche{
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 16px 16px 0;
+    padding: 16px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
