@@ -56,6 +56,7 @@ a{
 .hebergement:hover{
     color:#0065FC;
     border-top-color: #0065fc;
+
 }
 
 .logo{
@@ -86,9 +87,10 @@ h1{
       
       
     }
-    .hebergement.hover{
+    .hebergement:hover{
         border-top: none;
-        border-bottom: 3px solid #0065FC;    
+        border-bottom: 3px solid #0065FC;
+         
     }
     .activitelien:hover {
         border-top: none;
@@ -370,10 +372,7 @@ h1{
            
         
     }
-    .headerpopulaire{
 
-
-    }
     .containerpopulaires{
       width: 350px;
       height: 150px;
@@ -471,7 +470,7 @@ h1{
 
 /*Footer*/
 
-.footer{
+footer{
     margin-top: 50px;
     background-color: #F2F2F2;
     width: 100%;
