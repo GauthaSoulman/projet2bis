@@ -34,10 +34,9 @@ a{
   }
 
 .hebergement{
-    color:#0065FC;
+    color:black; 
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
-    border-top-color: #0065fc;
     padding:2rem;
 }
 
@@ -53,6 +52,11 @@ a{
     border-top-color: #0065fc;
 
   }
+
+.hebergement:hover{
+    color:#0065FC;
+    border-top-color: #0065fc;
+}
 
 .logo{
     width: 61.09px;
@@ -82,7 +86,7 @@ h1{
       
       
     }
-    .hebergement{
+    .hebergement.hover{
         border-top: none;
         border-bottom: 3px solid #0065FC;
         
