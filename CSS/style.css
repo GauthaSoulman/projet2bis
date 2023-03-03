@@ -162,6 +162,15 @@ h1{
 }
 
 /*Filtre*/
+
+.filtre{
+    display:flex;
+    grid-column-gap:20px;
+    text-align: center;
+}
+.textefiltre{
+    margin-top:50px;
+}
 .filtres{
     display: flex;
     margin-top: 2rem;
